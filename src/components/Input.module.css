@@ -1,0 +1,25 @@
+.inputContainer {
+  flex: 1;
+}
+
+.input {
+  width: 100%;
+  padding: 1.6rem;
+  background-color: var(--gray-500);
+
+  border: 1px solid var(--gray-700);
+  border-radius: 8px;
+
+  color: var(--gray-100);
+  line-height: var(--lh);
+
+  /* flex: 1; */
+}
+
+.input::placeholder {
+  font-family: var(--font-family);
+  font-size: var(--lg);
+  font-weight: 400;
+  line-height: var(--lh);
+  color: var(--gray-300);
+}
